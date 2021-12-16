@@ -1,4 +1,4 @@
-import { TextareaAutosize } from '@mui/material';
+import { TextareaAutosize, Typography } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
@@ -14,7 +14,7 @@ const BlogDetails = () => {
     return (
         <div>
             <h2>{details.heading}</h2>
-            <h2>{details.documents}</h2>
+            <Typography>{details.documents}</Typography>
             <TextareaAutosize
             aria-label="minimum height"
             minRows={3}

@@ -23,7 +23,7 @@ const Service = (props) => {
                         {heading}
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                        {documents.substring(0, 20)}
+                        {documents.substring(100,0)}
                     </Typography>
                 </CardContent>
             </Card> 
